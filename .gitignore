@@ -5,6 +5,7 @@
 
 # Local .terraform directories
 **/.terraform/*
+.lambda-venv/
 
 # .tfstate files
 *.tfstate
