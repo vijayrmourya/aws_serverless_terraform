@@ -1,5 +1,5 @@
 module "http-api-for-lambda" {
-  source = "../../terraform-modules/api-gateway/HTTP-APIs"
+  source = "../../terraform_modules/api-gateway/HTTP-APIs"
   #  refer: https://github.com/vijayrmourya/terraform-modules
 
   http-api-name = var.api-name
@@ -19,7 +19,7 @@ module "another-http-api-module-demo" {
 }
 
 module "lambda" {
-  source = "../../terraform-modules/aws-lambda"
+  source = "../../terraform_modules/aws-lambda"
   #  refer: https://github.com/vijayrmourya/terraform-modules
 
   ArchiveFolderName = "CheckLeapYear"

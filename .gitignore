@@ -1,8 +1,8 @@
-
+#Local Ignores
 *.lock.hcl
 .idea/
 .vscode/
-
+################################
 # Local .terraform directories
 **/.terraform/*
 .lambda-venv/
